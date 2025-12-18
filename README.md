@@ -68,14 +68,13 @@ El enfoque del proyecto fue transformar datos crudos y complejos en categorías 
 ## 📂 Estructura del Repositorio
 
 ```text
-├── 📁 data/                # Archivos CSV procesados y listos para consumo
-│   └── AI_Salaries_Cleaned.csv
-├── 📁 notebooks/           # Scripts de Python para ETL y Análisis
-│   └── etl_salaries.ipynb
-├── 📁 images/              # Recursos visuales
-│   └── dashboard_preview.png
-└── README.md               # Documentación del proyecto
+├── 📁 data/
+│   ├── ds_salaries.csv         # Datos Crudos (Input original)
+│   └── AI_Salaries_Cleaned.csv # Datos Procesados (Output del ETL)
+├── 📁 notebooks/           
+│   └── etl_salaries.ipynb      # Scripts de limpieza y transformación
+├── 📁 images/              
+│   └── dashboard_preview.png   # Recursos visuales
+└── README.md                   # Documentación del proyecto
 
-----------------------------------------------------------------
-
-Proyecto desarrollado por Alejandro Barrenechea como parte de un desafío técnico de Data Analytics.
+by **Alejandro Barrenechea**, como parte de un desafío técnico de Data Analytics.
